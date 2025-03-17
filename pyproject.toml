@@ -1,16 +1,15 @@
-[project]
+[tool.poetry]
 name = "seminar3"
 version = "0.1.0"
 description = ""
-authors = [
-    {name = "vtyric",email = "misha.torno@gmail.com"}
-]
-readme = "README.md"
-requires-python = ">=3.12"
-dependencies = [
-]
+authors = ["vtyric"]
 
+[tool.poetry.dependencies]
+python = ">=3.10,<4.0"
+streamlit = "^1.0"
+pandas = "^2.2.3"
+scikit-learn = "^1.6.1"
 
 [build-system]
-requires = ["poetry-core>=2.0.0,<3.0.0"]
+requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
